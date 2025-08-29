@@ -9,10 +9,13 @@ public class PlayerControler : MonoBehaviour
     public float hInput;
     public float vInput;
     public float jumpForce;
-    public float firePoint;
+    public GameObject firePoint;
     public Rigidbody playerRB;
+    public void Start ()
+    {
 
-    void update()
+    }
+    void Update()
     {
         hInput = Input.GetAxis("Horizontal");
         vInput = Input.GetAxis("Vertical");
