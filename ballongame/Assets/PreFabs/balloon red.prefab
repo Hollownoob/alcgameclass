@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7918291466388260018}
   - component: {fileID: 7348210451290032976}
   - component: {fileID: 7277948320839999158}
+  - component: {fileID: -3234556781143486142}
+  - component: {fileID: -8764507200481474510}
   m_Layer: 0
   m_Name: balloon red
   m_TagString: Untagged
@@ -67,7 +69,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996794748711932287}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 0.0000001
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -86,6 +88,31 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-3234556781143486142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996794748711932287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15af9f82735e204ba0bb2814dfb1f24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+--- !u!114 &-8764507200481474510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996794748711932287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 894937cb978254d46a3d55ddb82df957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2669592799792810856
 GameObject:
   m_ObjectHideFlags: 0
