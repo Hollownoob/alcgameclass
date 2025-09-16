@@ -113,6 +113,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 894937cb978254d46a3d55ddb82df957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clickToPop: 3
+  scaleToIncrease: 0.1
+  scoreToGive: 0
+  popEffect: {fileID: 479295476540542426, guid: daff16d1905153547ba5702d15b2eabb, type: 3}
 --- !u!1 &5747734204910058904
 GameObject:
   m_ObjectHideFlags: 0

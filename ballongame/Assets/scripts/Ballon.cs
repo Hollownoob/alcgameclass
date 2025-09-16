@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class Ballon : MonoBehaviour
 {
@@ -6,11 +8,11 @@ public class Ballon : MonoBehaviour
     public float scaleToIncrease = 0.10f;
     public int scoreToGive;
     private ScoreManager scoreManager;
-    //public GameObject popEffect;
+    public GameObject popEffect;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
     }
 
     // Update is called once per frame
@@ -21,7 +23,7 @@ public class Ballon : MonoBehaviour
         if(clickToPop == 0)
         {
             scoreManager.IncreaseScoreText(scoreToGive);
-            //Instantiate(popEffect, transform.position, transform.rotation);
+            Instantiate(popEffect, transform.position, transform.rotation);
             Destroy(gameObject);
         }
     }
