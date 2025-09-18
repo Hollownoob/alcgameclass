@@ -9,6 +9,7 @@ public class Ballon : MonoBehaviour
     public int scoreToGive;
     private ScoreManager scoreManager;
     public GameObject popEffect;
+    public float yTop = 70.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,7 +17,7 @@ public class Ballon : MonoBehaviour
     }
 
     // Update is called once per frame
-    void onMouseDown()
+    void OnMouseDown()
     {
         clickToPop -=1;
         transform.localScale += Vector3.one * scaleToIncrease;
@@ -27,4 +28,5 @@ public class Ballon : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    
 }

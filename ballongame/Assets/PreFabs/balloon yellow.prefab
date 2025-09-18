@@ -201,8 +201,8 @@ Transform:
   m_GameObject: {fileID: 4796918061518847141}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.288, y: 1.177, z: 0.305}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.2854, y: 0.59668, z: 0.29988}
+  m_LocalScale: {x: 2.0253, y: 2.0253, z: 2.0253}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4462104023529812689}
@@ -226,7 +226,7 @@ CapsuleCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.44
@@ -255,7 +255,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a15af9f82735e204ba0bb2814dfb1f24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 3
 --- !u!114 &7792773441471963939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -287,7 +287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickToPop: 3
   scaleToIncrease: 0.1
-  scoreToGive: 0
+  scoreToGive: 3
   popEffect: {fileID: 6854625836487435165, guid: b0e3178e02090504c86e98a690f552af, type: 3}
 --- !u!1 &7626756660095235636
 GameObject:
