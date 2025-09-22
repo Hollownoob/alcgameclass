@@ -7,6 +7,7 @@ public class SpawnManager : MonoBehaviour
     public float StartDelay;
     public float SpawnInterval;
     public float xRange = 20.0f;
+    public float yPos = -40.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

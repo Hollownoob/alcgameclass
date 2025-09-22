@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1422512909206104946}
   - component: {fileID: 6493458022132949113}
   - component: {fileID: 8205341951911674065}
+  - component: {fileID: -6296199635486457646}
   m_Layer: 0
   m_Name: Balloon partical red
   m_TagString: Untagged
@@ -4833,3 +4834,16 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &-6296199635486457646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5828312615109273468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb7991bd5a77bb4ebb1b1341b0adb85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 1

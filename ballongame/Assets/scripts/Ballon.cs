@@ -9,7 +9,6 @@ public class Ballon : MonoBehaviour
     public int scoreToGive;
     private ScoreManager scoreManager;
     public GameObject popEffect;
-    public float yTop = 70.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -28,5 +27,4 @@ public class Ballon : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    
 }
