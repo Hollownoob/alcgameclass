@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 128e051acc660dc4c986e07ac75c9ba3
+guid: 528d1bcc2a9d6654285e424f431dfaf2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1669490993913548592
-    second: strawberry_0
-  - first:
-      213: 5645405102435153569
-    second: strawberry_1
+      213: -8880189436267954328
+    second: charector_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +52,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 31}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -78,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,45 +100,58 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: strawberry_0
+      name: charector_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 36
-        width: 18
-        height: 28
+        x: 2
+        y: 0
+        width: 28
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 0, z: 0, w: 1}
       customData: 
-      outline: []
+      outline:
+      - - {x: 14, y: 9.5}
+        - {x: 10, y: 15.5}
+        - {x: -13, y: 15.5}
+        - {x: -14, y: 15.5}
+        - {x: -14, y: -16.5}
+        - {x: 14, y: -16.5}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 03f4eefa6393b2710800000000000000
-      internalID: 1669490993913548592
+      spriteID: 86f7219c1ca33c480800000000000000
+      internalID: -8880189436267954328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: strawberry_1
+      name: charector_1
       rect:
         serializedVersion: 2
-        x: 7
-        y: 1
-        width: 19
-        height: 31
+        x: 2
+        y: 32
+        width: 29
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 0, z: 1, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 14.5, y: -11}
+        - {x: 14.5, y: 14}
+        - {x: 7.5, y: 16}
+        - {x: -14.5, y: 16}
+        - {x: -14.5, y: -12}
+        - {x: -13.5, y: -16}
+        - {x: 8.5, y: -16}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1a633dfa702885e40800000000000000
-      internalID: 5645405102435153569
+      spriteID: 76b116dafe6750f4a977d1b62ffe6109
+      internalID: 1005928116
       vertices: []
       indices: 
       edges: []
@@ -150,8 +160,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: 6fe440d6a68cb2744bea707ef285bbcc
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -160,8 +170,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      strawberry_0: 1669490993913548592
-      strawberry_1: 5645405102435153569
+      charector_0: -8880189436267954328
+      charector_1: 1005928116
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
