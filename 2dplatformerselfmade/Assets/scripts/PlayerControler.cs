@@ -17,17 +17,17 @@ public class PlayerControler : MonoBehaviour
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public void addScore(int amount)
+    public void AddScore(int amount)
     {
         score += amount;
         scoreText.text = "score: " + score;
     }
 
     // Update is called once per frame
-    void fixedUpdate()
+    void FixedUpdate()
     {
         float moveInput = Input.GetAxisRaw("Horizontal");
-        rig.velocity = new Vector2(moveInput * moveSpeed, rig.velocity.y);
+        rig.linearVelocity = new Vector2(moveInput * moveSpeed, rig.linearVelocity.y);
     }
     void Update()
     {
